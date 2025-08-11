@@ -1,11 +1,10 @@
-#include <stdio.h>
+#include <ssdio.h>
+#include<locale.h>
+//#include <conio.h>
 
-
-
-int main() {
-
-// tratamento de caracteres especiais como acentos e pontuações na impressão de tela. 
-    //setlocale(LC_ALL, "Portuguese");   
+int main(){
+    // tratamento de caracteres especiais como acentos e pontuações na impressão de tela. 
+    setlocale(LC_ALL, "Portuguese");   
 
     // variáveis da Carta 1
     char estado1, codigo1[4], cidade1[20]; 
@@ -74,8 +73,4 @@ int main() {
     printf("\nPIB: %f", pib2, "de reais");
     printf("\nPontos Turísticos: %d", pontosturisticos2);
 
-
-
-    
-       return 0;
-
+}
