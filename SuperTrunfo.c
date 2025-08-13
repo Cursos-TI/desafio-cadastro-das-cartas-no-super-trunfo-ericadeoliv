@@ -1,5 +1,5 @@
 #include <stdio.h>
- 
+
 int main(){
     // variáveis da Carta 1
     char estado1, codigo1[5], cidade1[20]; 
