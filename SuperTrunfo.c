@@ -63,10 +63,10 @@ int main(){
     printf("\nNome da cidade: %s", cidade1);
     printf("\nPopulação: %d", populacao1);
     printf("\nÁrea: %.1f", area1, "km²");
-    printf("\nPIB: %.2f", pib1, "de reais");
+    printf("\nPIB: R$ %.2f", pib1, "de reais");
     printf("\nPontos Turísticos: %d", pontosturisticos1);
-    printf("\nDensidade Populacional: %.1f", dens_pop1, "habitantes por km²");
-    printf("\nPIB per Capita: R$ %.2f", pib_pc1);
+    printf("\nDensidade Populacional: %.1f", dens_pop1, "hab/km²");
+    printf("\nPIB per Capita: R$ %.2f", pib_pc1,"em reais");
 
 
     // Impressão Carta 2
@@ -78,8 +78,8 @@ int main(){
     printf("\nÁrea: %.1f", area2, "km²");
     printf("\nPIB: R$ %.2f", pib2, "de reais");
     printf("\nPontos Turísticos: %d", pontosturisticos2);
-    printf("\nDensidade Populacional: %.1f", dens_pop2, "habitantes por km²");
-    printf("\nPIB per Capita: R$ %.2f", pib_pc2);
+    printf("\nDensidade Populacional: %.1f", dens_pop2, "hab/km²");
+    printf("\nPIB per Capita: R$ %.2f", pib_pc2, "em reais");
 
     return 0;
 
